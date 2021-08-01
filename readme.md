@@ -35,7 +35,7 @@ public class DemoAutoConfiguration{
 > And autowire it with a _**constructor**_ in the calling class
 
 _TODO_
- - [x] Create a Generic SLF4J logger which can be injected to gereric bean generator and can be used across the project 
- - [x] Onboard the artifact onto Jfrog/Nexus
+ - [ ] Create a Generic SLF4J logger which can be injected to gereric bean generator and can be used across the project 
+ - [ ] Onboard the artifact onto Jfrog/Nexus
  
 [Guidance to write well formatted readme file](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
