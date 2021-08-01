@@ -1,3 +1,4 @@
+/*
 package com.sam09.lib.sbjacksonstarter;
 
 import org.springframework.boot.SpringApplication;
@@ -11,3 +12,4 @@ public class SbJacksonStarterApplication {
 	}
 
 }
+*/

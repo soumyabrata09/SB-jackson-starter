@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.sam09.lib</groupId>
 	<artifactId>sb-jackson-starter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>sb-jackson-starter</name>
 	<description>Custom starter for Jackson serialization for cross cutting</description>
 	<properties>
@@ -66,13 +66,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.datatype</groupId>
 			<artifactId>jackson-datatype-jdk8</artifactId>
-			<version>2.11.3</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8 -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.datatype</groupId>
-			<artifactId>jackson-datatype-jdk8</artifactId>
-			<version>2.11.3</version>
+			<version>2.12.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
