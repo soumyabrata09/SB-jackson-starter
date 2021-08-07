@@ -32,6 +32,20 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<!--Jfrog artifactory integration-->
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>a0guqxkvavcvp-artifactory-primary-0-releases</name>
+			<url>https://soumyabrata09.jfrog.io/artifactory/sam09-libs-release</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>a0guqxkvavcvp-artifactory-primary-0-snapshots</name>
+			<url>https://soumyabrata09.jfrog.io/artifactory/sam09-libs-snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
